@@ -1,9 +1,7 @@
 [license]: https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg
 [license-link]: https://github.com/aristraea/AridCore/blob/master/LICENSE
-[issues]: https://img.shields.io/github/issues/ajstri/AridCore.svg 
+[issues]: https://img.shields.io/github/issues/aristraea/AridCore.svg 
 [issues-link]: https://github.com/aristraea/AridCore/issues
-[discord-widget]: https://discord.com/api/guilds/562612266856349696/widget.png
-[discord-invite]: https://discord.gg/HH9EmGD
 
 [ ![license][] ][license-link]
 [ ![issues][] ][issues-link]
@@ -15,8 +13,7 @@ The current build is using JDA Version `5.0.0-beta.20`. For more details, see Ar
 <br><br>
 
 #### Examples using AridCore
-* [EchoedDungeons](https://github.com/aridstraea/EchoedDungeons/) by [aridstraea](https://github.com/aristraea)
-* [E.C.H.O's Utility Bot](https://github.com/aridstraea/ECHO-Community-Discord-Bot) by [aridstraea](https://github.com/aristraea)
+* TBA
 
 
 ## Features
@@ -25,7 +22,7 @@ Commands can be easily created and defined using [Command](https://github.com/ar
 The [Help Command](https://github.com/aristraea/AridCore/blob/master/src/main/java/core/commands/HelpCommand.java)
 automatically registers developer-defined commands for further use in its methods.
 
-To register a set of Commands, assuming a new instance of [AridCore](https://github.com/aristraea/AridCore/blob/master/src/main/java/core/EchoedCore.java) called `myBot`:
+To register a set of Commands, assuming a new instance of [AridCore](https://github.com/aristraea/AridCore/blob/master/src/main/java/core/AridCore.java) called `myBot`:
 
 
 **Register commands with both traditional & slash command counterparts:**
@@ -73,7 +70,7 @@ This is subject to change.
 ### **Creating a custom command**
 
 
-Creating a custom command is easy. Simply extend the [Command](https://github.com/aristraea/EchoedCore/blob/master/src/main/java/core/commands/Command.java).
+Creating a custom command is easy. Simply extend the [Command](https://github.com/aristraea/AridCore/blob/master/src/main/java/core/commands/Command.java).
 
 Shown below is a simple example of a command that will respond with "Hello World!" when called.
 
@@ -186,7 +183,7 @@ JDA does include a fallback logger if SLF4J does not have an implementation. How
 
 Please review [JDA's guide for logback-classic](https://github.com/DV8FromTheWorld/JDA/wiki/Logging-Setup), the implementation that EchoedCore uses.
 
-## EchoedCore Dependencies
+## AridCore Dependencies
 
 This project is built using Java 11.
 
