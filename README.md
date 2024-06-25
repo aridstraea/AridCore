@@ -9,7 +9,7 @@
 # AridCore - Framework for Discord Bots in Java
 #### A simple-to-use Discord Bot framework written in Java using [JDA](https://github.com/DV8FromTheWorld/JDA).
 
-The current build is using JDA Version `5.0.0-beta.20`. For more details, see AridCore Dependencies below.
+The current build is using JDA Version `5.0.0-beta.24`. For more details, see AridCore Dependencies below.
 <br><br>
 
 #### Examples using AridCore
